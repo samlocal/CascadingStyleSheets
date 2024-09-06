@@ -1,0 +1,17 @@
+
+/* Naned Color */
+h1{
+    color: orangered;
+}
+/* RGB */
+h2{
+    color: rgb(0, 255, 0);
+}
+/* RGBA/ */
+h3{
+    color: rgba(93, 16, 226, 0.3);
+}
+/* HeaxDecimal */
+h4{
+    color: #cd1919;
+}
