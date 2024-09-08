@@ -1,0 +1,13 @@
+body {
+    font-size: 0;
+}
+/* Display Property */
+div{
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 2px;
+    display: inline-block;
+
+}

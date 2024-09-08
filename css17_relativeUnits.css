@@ -1,0 +1,15 @@
+#outer{
+    height: 200px;
+    width: 200px;
+    border: 2px solid green;
+    margin: 50px;
+}
+
+#inner{
+    height: 50%;
+    width: 50%;
+    border: 2px solid red;
+    margin: 20%;
+   
+    
+}
