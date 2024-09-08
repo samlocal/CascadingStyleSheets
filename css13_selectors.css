@@ -1,0 +1,113 @@
+/* Universal Selector */
+*{
+    font-family: 'Courier New';
+}
+
+/* Element Selector */
+h3{
+    color: purple;
+}
+h1{
+    color: #b12b27;
+}
+h1,h3{
+    background-color:olive;
+}
+
+/* Id Selector */
+#login{
+    color: blueviolet;
+    background-color: #fff;
+}
+#signup{
+    color: #b12b27;
+    background-color: #fff;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: greenyellow;
+}
+
+/* Descendent Selectors */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+ul li a{
+    text-decoration: none;
+}
+
+/* Adjacent Sibling Combinator */
+p+h3{
+    text-decoration: underline ;
+}
+.upvote + button{
+    background-color: blueviolet;
+}
+
+/*Child Combinator*/
+div>input{
+    background-color: aqua;
+}
+
+/*Attribute Selector*/
+a[href]{
+    background-color: lawngreen;
+}
+a[href="/home"]
+{
+    background-color: indianred;
+}
+input[type="password"]
+{
+    color: red;
+}
+
+
+/* Pseudo Class */
+
+/* hover */
+button:hover{
+    background-color: pink;
+    color: black;
+}
+
+/*Active*/
+p:active{
+    color: fuchsia;
+}
+
+/*Checked*/
+input[id="like"]:checked+label{
+    color: green;
+    font-weight: bold;
+}
+
+input[id="dislike"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+
+/* nth of type */
+div>button:nth-of-type(2n){
+    color: rgb(244, 10, 49);
+    background-color: yellow;
+}
+.post:nth-of-type(2n+1)
+{
+    background-color: aqua;
+}
+.post:nth-of-type(2n){
+    background-color: tomato;
+}
+
+/*PseudoElement*/
+#ppp::after{
+    content: "sameer";
+    color:seagreen;
+    font-weight: bold;
+}
+h1::before{
+    content: "QQ";
+}
