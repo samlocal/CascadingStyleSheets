@@ -1,0 +1,25 @@
+#outerDiv{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+.innerDivClass{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+#innerDiv1{
+    background-color: red;
+}
+#innerDiv2{
+    background-color: yellow;
+}
+#innerDiv3{
+    background-color: green;
+}
+
